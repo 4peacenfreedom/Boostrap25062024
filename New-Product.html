@@ -88,6 +88,62 @@
       </div>
     </nav>
 
+    <!-- FORM -->
+
+    <!-- Tabla:
+    - Producto
+    - Detalle
+    - Monto
+    - Cantidad
+    - Acciones -->
+
+    <div class="container">
+      <h2>Formulario de Ingreso de Datos</h2>
+      <form class="form-group">
+        <div class="mb-3">
+          <label for="producto" class="form-label">Producto:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="producto"
+            name="producto"
+            placeholder="Ingrese el nombre del producto"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="detalle" class="form-label">Detalle:</label>
+          <textarea
+            class="form-control"
+            id="detalle"
+            name="detalle"
+            rows="3"
+            placeholder="Ingrese el detalle del producto"
+          ></textarea>
+        </div>
+        <div class="mb-3">
+          <label for="monto" class="form-label">Monto:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="monto"
+            name="monto"
+            placeholder="Ingrese el monto"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="cantidad" class="form-label">Cantidad:</label>
+          <input
+            type="number"
+            class="form-control"
+            id="cantidad"
+            name="cantidad"
+            placeholder="Ingrese la cantidad"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

@@ -1,11 +1,19 @@
-Nombre de Paginas : Login.html - Iniciar sesion - Debe recibir un usuario y
-contrasena si coniciden lo redireccina a Index.html si no le muestra un error Al
-iniciar sesion : se visualiza el NavBar con los enlaces : Index.html - Inicio
+Nombre de Paginas : 
+Login.html - Iniciar sesion - Debe recibir un usuario y contrasena si coniciden lo redireccina a Index.html si no le muestra un error
+Al iniciar sesion : se visualiza el NavBar con los enlaces : Index.html - Inicio
 New-Product.html - Crear Producto List-Products.html - Listado de Productos
+ -- Tabla:
+        - Producto
+        - Detalle
+        - Monto
+        - Cantidad
+        - Acciones
 Cerrar Sesion - Esto no es una pagina, es una accion del boton
 ---------------------------------------------------------------------------------------------
 Temas a aplicar C Create - Crear o agregar R Read- Listado y el buscador U
 Update - Actualizar el carrito D Delete - Eliminar --- Nav
+
+ <!-- NAVBAR -->
 <nav class="navbar navbar-expand-sm navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button
